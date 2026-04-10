@@ -1,23 +1,3 @@
-Your repo is perfectly set up! 🎉 All the foundations are in place:
-
-✅ .github/workflows/ — CI/CD
-✅ data/
-✅ notebooks/
-✅ src/
-✅ tests/
-✅ .gitignore
-✅ LICENSE
-✅ README.md
-✅ requirements.txt
-
-Now let's first update the README, then dive straight into the RAG module!
-Step 1 — Update README:
-
-Click README.md → pencil icon ✏️
-Select all and replace with:
-
-markdown# Healthcare AI Agents
-
 A production-grade healthcare AI platform built for Oracle Health AI scale — featuring RAG pipelines over clinical documents, multi-agent clinical decision support, biomarker-driven treatment recommendation, and enterprise FastAPI model serving.
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
