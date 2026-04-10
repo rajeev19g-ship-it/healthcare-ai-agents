@@ -1,4 +1,5 @@
-A production-grade healthcare AI platform built for Oracle Health AI scale — featuring RAG pipelines over clinical documents, multi-agent clinical decision support, biomarker-driven treatment recommendation, and enterprise FastAPI model serving.
+# Healthcare AI Agents
+A production-grade healthcare AI platform built for Oracle Health AI scale featuring RAG pipelines over clinical documents, multi-agent clinical decision support, biomarker-driven treatment recommendation, and enterprise FastAPI model serving.
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
