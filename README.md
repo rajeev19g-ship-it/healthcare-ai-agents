@@ -1,9 +1,4 @@
-Let me write a complete, clean README that will render perfectly on GitHub:
-
-Go to healthcare-ai-agents repo → click README.md → pencil ✏️
-Select all → delete everything → paste this:
-
-markdown# Healthcare AI Agents
+# Healthcare AI Agents
 
 A production-grade healthcare AI platform built for Oracle Health AI scale — featuring RAG pipelines over clinical documents, multi-agent clinical decision support, biomarker-driven treatment recommendation, precision mental health matching, and enterprise FastAPI model serving.
 
@@ -22,6 +17,7 @@ A production-grade healthcare AI platform built for Oracle Health AI scale — f
 | `src/rag/` | `clinical_rag.py`, `fhir_indexer.py`, `embeddings.py` | RAG pipeline over FHIR R4 records and clinical guidelines |
 | `src/agents/` | `clinical_agent.py`, `drug_interaction_tool.py`, `summarizer_agent.py` | LangGraph multi-agent clinical decision support |
 | `src/recommender/` | `treatment_recommender.py`, `ranking_engine.py`, `therapist_matcher.py` | Biomarker-driven treatment recommendation and precision mental health matching |
+| `src/trial_matching/` | `trial_matcher.py` | Real-time clinical trial matching — mirrors Klinixa platform built at Takeda |
 | `src/governance/` | `ai_governance.py` | Bias auditing, fairness metrics, responsible AI checklist, audit logging |
 | `src/serving/` | `api.py`, `Dockerfile`, `docker-compose.yml` | FastAPI model serving, health checks, Docker deployment |
 
@@ -106,6 +102,8 @@ Clinician / Member Facing Applications
 ---
 
 ## Repository Structure
+
+```
 healthcare-ai-agents/
 |-- .github/workflows/ci.yml       GitHub Actions CI pipeline
 |-- src/
@@ -121,6 +119,8 @@ healthcare-ai-agents/
 |   |   |-- treatment_recommender.py  Biomarker-driven recommender
 |   |   |-- ranking_engine.py      TOPSIS + ensemble ranker
 |   |   +-- therapist_matcher.py   Precision mental health matching
+|   |-- trial_matching/
+|   |   +-- trial_matcher.py       Real-time trial matching (Klinixa)
 |   |-- governance/
 |   |   +-- ai_governance.py       Bias auditing + audit logging
 |   +-- serving/
@@ -132,9 +132,10 @@ healthcare-ai-agents/
 |-- notebooks/
 |-- data/
 |-- STRATEGY.md                    Enterprise AI transformation roadmap
+|-- LEADERSHIP.md                  Team structure, OKRs, hiring philosophy
 |-- requirements.txt
 +-- README.md
-
+```
 ---
 
 ## Regulatory and Clinical Standards
